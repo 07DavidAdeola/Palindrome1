@@ -1,3 +1,4 @@
+// https://github.com/07DavidAdeola/Palindrome1.git
 public class Main {
  public static void main(String[] args) {
  // Palindrome: Reads the same from left to right or vice versa
