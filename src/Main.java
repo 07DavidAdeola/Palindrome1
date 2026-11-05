@@ -14,16 +14,27 @@ public class Main {
 //  System.out.println("Character at 0 index: " + str.charAt(0));
 // System.out.println("Character at last index: " + str.charAt(str.length()-1));
 
-     String str = "Hello World";
- System.out.println(str.substring(2));
- System.out.println(str.substring(0,7));
+  int num = 12321;
 
- String substr = str.substring(0,6);
- System.out.println(substr.length());
-
- substr = substr.trim();
- System.out.println(substr.length());
+  if (CheckPalindromeString(String.valueOf(num))) {
+   System.out.println(num + " is a palindrome number.");
+  } else {
+   System.out.println(num + " is not a palindrome number.");
+  }
  }
+
+
+
+//     String str = "Hello World";
+// System.out.println(str.substring(2));
+// System.out.println(str.substring(0,7));
+//
+// String substr = str.substring(0,6);
+// System.out.println(substr.length());
+//
+// substr = substr.trim();
+// System.out.println(substr.length());
+// }
 
   // Define a recursive method that checks if a string is a palindrome string
          // Invoking from within a static method
